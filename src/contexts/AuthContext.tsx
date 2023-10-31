@@ -14,6 +14,7 @@ interface AuthProviderProps {
     children: ReactNode
 }
 
+//O Conxteto é criado(createContext) e o modelo de dados pe definido(AuthContextProps). 
 export const AuthContext = createContext({} as AuthContextProps)
 
 export function AuthProvider({ children }: AuthProviderProps) {
