@@ -20,9 +20,8 @@ Interface Web de um Blog Pessoal conectado a uma API Backend com funcionalidades
 - ✔️ **Testes Unitários:** Garanta a qualidade do código com testes unitários.
 
 ## Acesse o Blog Pessoal em Deploy via Vercel ou apenas a API via Render:**
-    - Abra seu navegador e visite `https://vercel.com/gaspar-leonardis-projects/blog-pessoal/48ot4ZNfybzDJLPyD5zZLkfheF5w`.
+    - Abra seu navegador e visite `https://blog-pessoal-git-main-gaspar-leonardis-projects.vercel.app/`.
     - Abra seu navegador e visite `https://blogpessoal2-4n03.onrender.com`.
-
 
 ## Tecnologias Utilizadas
 
