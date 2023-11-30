@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# 💻 BlogPessoal - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface Web de um Blog Pessoal conectado a uma API Backend com funcionalidades CRUD para usuários, postagens e temas, onde os usuários podem criar, editar, excluir e visualizar postagens e temas. Durante o desenvolvimento desta aplicação, apliquei conceitos da linguagem TypeScript, React, Figma(UX/UI) e a biblioteca Tailwind.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades Principais
 
-## Expanding the ESLint configuration
+- ➕ **Cadastro de Postagens:** Os usuários podem criar novas postagens, inserindo título, conteúdo e associando temas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🔄 **Atualização de Postagens:** Edite facilmente suas postagens existentes para mantê-las atualizadas.
 
-- Configure the top-level `parserOptions` property like this:
+- 🗑️ **Exclusão de Postagens:** Remova postagens que não são mais necessárias.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- 🔍 **Busca de Postagens:** Uma funcionalidade de busca poderosa para encontrar postagens com base em palavras-chave.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- 👤 **Associação a Usuários:** Atribua tarefas a usuários específicos para melhor organização.
+
+- 📂 **Associação a Temas:** Categorize suas postagens associando-as a diferentes temas.
+  
+- ✔️ **Testes Unitários:** Garanta a qualidade do código com testes unitários.
+
+## Acesse o Blog Pessoal em Deploy via Vercel ou apenas a API via Render:**
+    - Abra seu navegador e visite `https://vercel.com/gaspar-leonardis-projects/blog-pessoal/48ot4ZNfybzDJLPyD5zZLkfheF5w`.
+    - Abra seu navegador e visite `https://blogpessoal2-4n03.onrender.com`.
+
+
+## Tecnologias Utilizadas
+
+- **Typescript:** Linguagem que estende e tipa JavaScript.
+  
+- **React:** Biblioteca JavaScript para construir interfaces interativas.
+  
+- **Tailwind:** Framework de estilo utilitário.
+
+- **Docker:** ORM utilizado para interagir com o banco de dados.
+
+- **Figma:** Plataforma para design de interfaces.
